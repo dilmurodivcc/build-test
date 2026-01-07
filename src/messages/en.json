@@ -1,0 +1,131 @@
+{
+  "main": {
+    "title": "Discover the world of exquisite travel",
+    "subtitle": "Routes tailored just for you, world-class service, unforgettable experiences",
+    "learnMore": "Learn more",
+    "contactUs": "Contact us",
+    "readMore": "Read more",
+    "directions": "Destinations",
+    "more": "More details",
+    "reviewsTitle": "Trusted by travelers around the world",
+    "contactSubtitle": "Leave your contact details, and we’ll help organize your perfect trip",
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "message": "Your message",
+      "sendMessage": "Send message"
+    }
+  },
+  "aboutUs": {
+    "title": "Discover the world with Tasnim Travel",
+    "subtitle": "Your reliable partner in the world of travel since 2022",
+    "stats": {
+      "clients": "Happy clients",
+      "directions": "Destinations",
+      "experience": "Years of experience",
+      "support": "Support"
+    },
+    "values": {
+      "title": "Our values",
+      "global": "Global reach",
+      "globalDescription": "We organize trips to any part of the world, tailored to your preferences",
+      "comfort": "Comfort",
+      "comfortDescription": "We consider every detail of your trip for maximum convenience",
+      "reliability": "Reliability",
+      "reliabilityDescription": "Official contracts and quality guarantees for all services provided"
+    },
+    "team": {
+      "title": "Our team",
+      "description": "We are a team of professionals united by a passion for travel and a desire to create unforgettable experiences for our clients. Each of us has deep knowledge in our field and is ready to share our expertise with you.",
+      "footer": "Each member of our team regularly undergoes training and visits new destinations to provide you with the most up-to-date information and top-level service."
+    }
+  },
+  "tours": {
+    "title": "Our tours",
+    "subtitle": "Discover amazing destinations with Tasnim Travel",
+    "allTours": "All tours",
+    "more": "More details",
+    "notFound": "Didn’t find the right tour?",
+    "contactSubtitle": "Leave a request, and we will organize a customized trip based on your wishes",
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "message": "Your message",
+      "sendMessage": "Send message"
+    },
+    "detail": {
+      "title": "Tour description",
+      "gallery": "Photo gallery",
+      "duration": "Duration",
+      "price": "Price",
+      "tourType": "Tour type"
+    }
+  },
+  "tourGallery": {
+    "title": "Travel gallery",
+    "subtitle": "Inspiring photos from our tours",
+    "allPhotos": "All photos"
+  },
+  "contacts": {
+    "title": "Contact us",
+    "subtitle": "We are always happy to help you plan the perfect trip",
+    "contactInfo": "Our contacts",
+    "socialLinks": "We’re on social media",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "instagram": "Instagram",
+    "telegram": "Telegram",
+          "whatsapp": "WhatsApp"
+  },
+  "header": {
+    "home": "Home",
+    "aboutUs": "About us",
+    "tours": "Tours",
+    "gallery": "Gallery",
+    "contacts": "Contacts",
+    "directions": "Destinations",
+    "transfers": "Transfers"
+  },
+  "footer": {
+    "copyright": "All rights reserved",
+    "contacts": "Contacts",
+    "directions": "Destinations",
+    "socialLinks": "We’re on social media"
+  },
+  "directions": {
+    "detail": {
+      "title": "About the destination"
+    }
+  },
+  "transfers": {
+    "hero": {
+      "title": "Premium transfers for your trips",
+      "subtitle": "Comfortable vehicles, professional drivers, and 24/7 support in three countries: Malaysia, Saudi Arabia, and UAE."
+    },
+    "card": {
+      "directions": "Available routes",
+      "cars": "Vehicles",
+      "bookButton": "Book via WhatsApp"
+    },
+    "benefits": {
+      "title": "Why choose us",
+      "drivers": {
+        "title": "Professional drivers",
+        "description": "Experienced drivers with excellent knowledge of roads and high level of service"
+      },
+      "support": {
+        "title": "24/7 WhatsApp support",
+        "description": "Round-the-clock support in English for solving any issues"
+      },
+      "price": {
+        "title": "Transparent pricing",
+        "description": "Fixed prices without hidden fees and additional charges"
+      },
+      "vip": {
+        "title": "VIP fleet",
+        "description": "Modern comfortable premium class vehicles"
+      }
+    }
+  }
+}

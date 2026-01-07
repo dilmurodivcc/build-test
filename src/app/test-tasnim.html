@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Travel Agency</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<style type="text/tailwindcss">
+        :root {
+            --primary-color: #01797B;
+            --button-color: #D4A24C;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--primary-color);
+        }
+        .text-primary {
+            color: var(--primary-color);
+        }
+        .bg-button {
+            background-color: var(--button-color);
+        }
+        .bg-button:hover {
+            background-color: #c8933b;}
+        .text-button {
+            color: var(--button-color);
+        }
+        .border-button {
+            border-color: var(--button-color);
+        }
+        .hover\:bg-button:hover {
+            background-color: var(--button-color);
+        }
+        .hover\:text-button:hover {
+            color: var(--button-color);
+        }
+        .bg-primary {
+            background-color: var(--primary-color);
+        }
+    </style>
+</head>
+<body class="bg-white">
+<header class="relative h-screen bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&amp;w=1975&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+<div class="absolute inset-0 bg-black opacity-30"></div>
+<div class="absolute top-0 left-0 right-0 z-20">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-20">
+<div class="flex-shrink-0">
+<a class="text-white text-2xl font-bold tracking-wider" href="#">TEZMIL</a>
+</div>
+<div class="hidden md:block">
+<div class="ml-10 flex items-baseline space-x-4">
+<a class="text-white hover:bg-white hover:bg-opacity-20 px-3 py-2 rounded-md text-sm font-medium" href="#">Направления</a>
+<a class="text-white hover:bg-white hover:bg-opacity-20 px-3 py-2 rounded-md text-sm font-medium" href="#">О нас</a>
+<a class="text-white hover:bg-white hover:bg-opacity-20 px-3 py-2 rounded-md text-sm font-medium" href="#">Отзывы</a>
+<a class="text-white hover:bg-white hover:bg-opacity-20 px-3 py-2 rounded-md text-sm font-medium" href="#">Контакты</a>
+</div>
+</div>
+<div class="flex items-center">
+<div class="relative">
+<button class="flex items-center text-white focus:outline-none">
+<span class="text-sm font-medium">РУ</span>
+<svg class="ml-1 h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="relative z-10 flex flex-col items-start justify-center h-full text-white px-8 md:px-20 lg:px-40">
+<h1 class="text-5xl md:text-7xl font-bold uppercase tracking-wider">Путешествуйте</h1>
+<h2 class="text-5xl md:text-7xl font-bold uppercase tracking-wider mb-4">Стильно</h2>
+<p class="max-w-md text-lg mb-8">Авторские маршруты, неприхотливый сервис и незабываемые впечатления.</p>
+<div>
+<a class="bg-button text-white py-3 px-6 rounded-lg mr-4 transition duration-300" href="#">Наши путешествия</a>
+<a class="border border-white text-white py-3 px-6 rounded-lg hover:bg-white hover:text-gray-800 transition duration-300" href="#">Связаться с нами</a>
+</div>
+</div>
+</header>
+<section class="py-20 bg-white">
+<div class="container mx-auto px-4">
+<h2 class="text-3xl font-bold text-center mb-12 uppercase tracking-wider text-primary">Наши направления</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="bg-white rounded-lg shadow-lg overflow-hidden">
+<img alt="Kuala Lumpur skyline" class="w-full h-56 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLjL76p4ruqC_5Ek7kurwnJyk_C1c4XKO1IFECLJddhcalh9U7Dso4LyrSUmG1NweQfPvBkz-HEIowGLn_AYwNVPAqQljTBgCKr2zowszbX2KgUfbolNIZnY6BHXq7o6wxypyXpqBWleW8Rk3O3pi0mF8HifFcuuEVgvYF4DlcvJpYriB4rALt9KOPoQBWAYSJqWdhL4_QWOixyiVFoSQb1BXsAdwM11Ik-eoyB7__XJFbgvbfuUcINmUiRLzAN6B5zRT7NKLuTw"/>
+<div class="p-6">
+<h3 class="text-xl font-bold mb-2 text-primary">Куала-Лумпур</h3>
+<p class="text-gray-600 mb-4">Подробнее</p>
+<a class="bg-button text-white py-2 px-4 rounded-lg transition duration-300" href="#">Подробнее</a>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-lg overflow-hidden">
+<img alt="Dubai skyline with palm trees" class="w-full h-56 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB61y0yYi0ZyR3H1TJpylCaHIZJr_AiMCLBX-JXrnL75WWX_a6BElBqCONu0NL3lTh10HQIbXNrcy_iBaMBjMX-eTHg7UV5mTkmDP9TZowBafE7mJkuvK-0f0yI0is7rF-qDAQl7ok2jPKMg6Bj80RgelxmwMP21Nu7WsJcvmiBB9mit0DsIpXnknHgezv9HYnk29ALvF7v5pGnoeHYTJIbJuQiZcxhxEOvu_-Gv2F7oWI5f8SCOH5sweq2nbaDcwfJJ5Gcdfzzdg"/>
+<div class="p-6">
+<h3 class="text-xl font-bold mb-2 text-primary">Дубай</h3>
+<p class="text-gray-600 mb-4">Впечатляющая арена</p>
+<a class="bg-button text-white py-2 px-4 rounded-lg transition duration-300" href="#">Подробнее</a>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-lg overflow-hidden">
+<img alt="Mosque in Saudi Arabia" class="w-full h-56 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsXiLrquOCXZD9hjz7qJZ5IhQbvB-xR5MA_O3vraGZI2oub7FGbyMiFrf4HJN2yuBSfRCClO-2VB7f9tCp1xIpsNW97ql2ZmZETtmifEs1rrkzQGE14Jc-8qsjvoAL35fw7s2LCQSpW6-TSfZVGT5fvdG5HOV50gUcBepxCqRxrIjU37G8uPBbQc-GNGOsd-WetL0dd1F5NXmxpi7eCDhdIvjE-JSQu-Gea4QtFxwezsDUPIBK58vwjzrcAgfYQWnjmX4Um8vn7g"/>
+<div class="p-6">
+<h3 class="text-xl font-bold mb-2 text-primary">Саудовская Аравия</h3>
+<p class="text-gray-600 mb-4">Морские</p>
+<a class="bg-button text-white py-2 px-4 rounded-lg transition duration-300" href="#">Подробнее</a>
+</div>
+</div>
+<div class="relative bg-white rounded-lg shadow-lg overflow-hidden group">
+<img alt="Overwater bungalows in the Maldives" class="w-full h-56 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPrYfrDu1m0Y_iYXz7fPh-OjuvWV-dbmaqOt-uD4OvojKAxjpxjzQ0btERpnEnMuBnFj9nCI3bVD1hNMzHT_wVN4Hex7KYTTbHLnVBrVnNa4rBWq89JqHjiMZKk-POYfd_imZHmhEu2hv0xTi4pws-7p5KGMjroy3wATk-wl_NIN7pY7O7T5mTPOUMbZ_n3DpCdN_O-Z_Bc7Ip-GkKI601_XdxHUyjH5r559DxkTjl6I2qC3i-KvqFvSItBmbWAOlIMKiv1s104Q"/>
+<div class="absolute inset-0 bg-[var(--primary-color)] opacity-0 group-hover:opacity-60 transition-opacity duration-300"></div>
+<div class="p-6 relative z-10">
+<h3 class="text-xl font-bold mb-2 text-primary group-hover:text-white transition-colors duration-300">Мальдивы</h3>
+<p class="text-gray-600 mb-4 group-hover:text-gray-200 transition-colors duration-300">Подробнее</p>
+<a class="bg-button text-white py-2 px-4 rounded-lg transition duration-300" href="#">Подробнее</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-gray-50">
+<div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
+<div class="md:w-1/2">
+<img alt="Luxurious hotel lobby" class="rounded-lg shadow-lg w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqYFborqJ3Rhf-e8TaPf4-i8rvmqe7xYUwxIFS0xsAkNhdnOcYJWgr0z4lzJAXhktSChcITaLFW3SXuTHjI_BOtFg5yeiv21khyj44IsYei1yhUtZfmRHUtjrywhRjOOBoqwWY9J_idv5uGbgl9QD11tuIYUA466Lgc2LpA6dY-uJis8avbFjV1DEWCDbanskFqfDwf9nU_wSrm98QJQ4MtbucGCkGUSZ6m4dAmdViXBzdFih-2ybJ6j2WFyvVsSeE8yvncrjZJg"/>
+</div>
+<div class="md:w-1/2 text-left">
+<h2 class="text-3xl font-bold mb-6 uppercase tracking-wider text-primary">О компании</h2>
+<p class="text-gray-600 mb-6 leading-relaxed">Tezmil Travel — малоаварийный туроператор, создающий незабываемые путешествия по всему миру. Мы предлагаем прекрасные маршруты, вежливый сервис и полный комфорт на каждом шагу.</p>
+<a class="bg-button text-white py-3 px-6 rounded-lg transition duration-300" href="#">Узнайте подробнее</a>
+</div>
+</div>
+</section>
+<section class="py-20 bg-white">
+<div class="container mx-auto px-4">
+<h2 class="text-3xl font-bold text-center mb-12 uppercase tracking-wider text-primary">Отзывы клиентов</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-gray-50 p-8 rounded-lg shadow-md text-center">
+<img alt="Anna Petrova" class="w-20 h-20 rounded-full mx-auto mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBG71Is3PIq78iq6sU0sRvSIrzDcHH2XfDmws7GCIV62zAklxqytTrcsq_JuPmZIdFd5ls0pUcDU396laJLlcx67fqT3zRwuKSgwEbIgrMHf0FPsqxzsccRcUE3FwJZSD-lvHWha6MDb6hp0xOrj_0WMn0N19_bBk7lxV7lKCAZV1B7KxQHwlzZ1b6uMJT_ZVHB0SSznqHLk-L1Jgl0huV0BTrAx5GNxvck_TBsB4c_3MF-ZDtfNgrnFY5li2SYnZSzjA6ydVHiVw"/>
+<h3 class="font-bold text-lg text-primary">Анна Петрова</h3>
+<p class="text-gray-600 mt-2">Очень непривычно организованные туры превосходят все ожидания.</p>
+</div>
+<div class="bg-gray-50 p-8 rounded-lg shadow-md text-center">
+<img alt="Ivan Krivtsov" class="w-20 h-20 rounded-full mx-auto mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuArnE0YEcB8VlIcYA4MCzg5EKMmoU3h-fm_I4OdMebxkFPZgD9dX4s_cpIEdqbkMitjhpANcOV8867tCwR-zdZL2b1Wg5GOII6zF-I5iH9l0BLS-tMbOyHxYmIwNVxpjJwF06YCFy76kY2RG-iAH3LrqTzl4mAOKyLqff3Hyc1O70YBUIghCrCdlV2YVULAHk2UhycqajVkequ6ogVGUALgwNiZUQfgkSd2FS7I_WOBJ_39-i3a7lEF03elUuV3dwTH2tfc4bXkvQ"/>
+<h3 class="font-bold text-lg text-primary">Иван Кравцов</h3>
+<p class="text-gray-600 mt-2">Атмосфера и организация на профессиональном уровне. Рад сотрудничеству.</p>
+</div>
+<div class="bg-gray-50 p-8 rounded-lg shadow-md text-center">
+<img alt="Olga Smirnova" class="w-20 h-20 rounded-full mx-auto mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7PCGaie2QSjAhkmm-oeuXRcvjmjcuMSO7G1WgXWI4yDBASbXHe6Uf3U9Ioi9GD_p5tDhHMFSTpcPnIVJH-qmNuM9gvcCpt0gs0rGckTXTysyk3K0KmhleMSCtv6pwHaOoDcZWDvQopWslxx7kfS05jmeg9X7h1j1LaWwTvmJbmPcDos4tYVmZ0jOeqmMg8rSihaRw8v66hUxRcGoykbh_IRLB84woEqw7kRrK9Skjp46hLXEwB2HUI48_elX_mzdIVeKCBlQQ9w"/>
+<h3 class="font-bold text-lg text-primary">Ольга Смирнова</h3>
+<p class="text-gray-600 mt-2">Качественный, расслабляющий отдых с первоклассным сервисом.</p>
+</div>
+</div>
+</div>
+</section>
+<footer class="py-20 bg-gray-100">
+<div class="container mx-auto px-4 text-center">
+<h2 class="text-3xl font-bold uppercase tracking-wider text-primary">Контакты</h2>
+</div>
+</footer>
+</body></html>

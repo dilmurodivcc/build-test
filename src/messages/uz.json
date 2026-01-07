@@ -1,0 +1,131 @@
+{
+  "main": {
+    "title": "Nafis sayohatlar olamini kashf eting",
+    "subtitle": "Faqat siz uchun yaratilgan marshrutlar, jahon darajasidagi xizmat, unutilmas taassurotlar",
+    "learnMore": "Batafsil ma’lumot",
+    "contactUs": "Biz bilan bog‘laning",
+    "readMore": "Ko‘proq o‘qish",
+    "directions": "Yo‘nalishlar",
+    "more": "Batafsil",
+    "reviewsTitle": "Bizga butun dunyo sayohatchilari ishonadi",
+    "contactSubtitle": "Kontaktlaringizni qoldiring, biz sizning mukammal sayohatingizni tashkil etamiz",
+    "form": {
+      "name": "Ismingiz",
+      "email": "Email manzilingiz",
+      "message": "Xabaringiz",
+      "sendMessage": "Xabar yuborish"
+    }
+  },
+  "aboutUs": {
+    "title": "Tasnim Travel bilan dunyoni kashf eting",
+    "subtitle": "2022 yildan buyon sayohat olamidagi ishonchli hamkoringiz",
+    "stats": {
+      "clients": "Mamnun mijozlar",
+      "directions": "Yo‘nalishlar",
+      "experience": "Yillik tajriba",
+      "support": "Qo‘llab-quvvatlash"
+    },
+    "values": {
+      "title": "Bizning qadriyatlarimiz",
+      "global": "Global qamrov",
+      "globalDescription": "Sizning istaklaringizga mos holda dunyoning istalgan nuqtasiga sayohat tashkil etamiz",
+      "comfort": "Qulaylik",
+      "comfortDescription": "Sayohatingizning har bir tafsilotini maksimal qulaylik uchun o‘ylab chiqamiz",
+      "reliability": "Ishonchlilik",
+      "reliabilityDescription": "Rasmiy shartnomalar va barcha xizmatlarimiz sifatiga kafolat"
+    },
+    "team": {
+      "title": "Bizning jamoamiz",
+      "description": "Biz – sayohatga bo‘lgan ishtiyoq va mijozlarimiz uchun unutilmas taassurotlar yaratishga intilish bilan birlashgan professionallar jamoasimiz. Har birimiz o‘z sohamizda chuqur bilimga egamiz va tajribamizni siz bilan bo‘lishishga tayyormiz.",
+      "footer": "Jamoamizning har bir a’zosi muntazam ravishda o‘qitiladi va yangi yo‘nalishlarga tashrif buyurib, sizga eng dolzarb ma’lumot va eng yuqori darajadagi xizmatni taqdim etadi."
+    }
+  },
+  "tours": {
+    "title": "Bizning turlarimiz",
+    "subtitle": "Tasnim Travel bilan hayratlanarli yo‘nalishlarni kashf eting",
+    "allTours": "Barcha turlar",
+    "more": "Batafsil",
+    "notFound": "Mos tur topilmadimi?",
+    "contactSubtitle": "So‘rov qoldiring va biz sizning istaklaringiz asosida individual sayohat tashkil etamiz",
+    "form": {
+      "name": "Ismingiz",
+      "email": "Email manzilingiz",
+      "message": "Xabaringiz",
+      "sendMessage": "Xabar yuborish"
+    },
+    "detail": {
+      "title": "Tur tavsifi",
+      "gallery": "Fotogalereya",
+      "duration": "Davomiyligi",
+      "price": "Narxi",
+      "tourType": "Tur turi"
+    }
+  },
+  "tourGallery": {
+    "title": "Sayohatlar galereyasi",
+    "subtitle": "Bizning turlarimizdan ilhomlantiruvchi suratlar",
+    "allPhotos": "Barcha suratlar"
+  },
+  "contacts": {
+    "title": "Biz bilan bog‘laning",
+    "subtitle": "Biz sizning mukammal sayohatingizni rejalashtirishda doimo yordam berishga tayyormiz",
+    "contactInfo": "Bizning kontaktlarimiz",
+    "socialLinks": "Biz ijtimoiy tarmoqlarda",
+    "phone": "Telefon",
+    "email": "Email",
+    "address": "Manzil",
+    "instagram": "Instagram",
+    "telegram": "Telegram",
+          "whatsapp": "WhatsApp"
+  },
+  "header": {
+    "home": "Bosh sahifa",
+    "aboutUs": "Biz haqimizda",
+    "tours": "Turlar",
+    "gallery": "Galereya",
+    "contacts": "Kontaktlar",
+    "directions": "Yo‘nalishlar",
+    "transfers": "Transferlar"
+  },
+  "footer": {
+    "copyright": "Barcha huquqlar himoyalangan",
+    "contacts": "Kontaktlar",
+    "directions": "Yo‘nalishlar",
+    "socialLinks": "Biz ijtimoiy tarmoqlarda"
+  },
+  "directions": {
+    "detail": {
+      "title": "Yo'nalish haqida"
+    }
+  },
+  "transfers": {
+    "hero": {
+      "title": "Sayohatingiz uchun premium transferlar",
+      "subtitle": "Qulay avtomobillar, professional haydovchilar va 24/7 qo'llab-quvvatlash uch mamlakatda: Malayziya, Saudiya Arabistoni va BAA."
+    },
+    "card": {
+      "directions": "Mavjud yo'nalishlar",
+      "cars": "Avtomobillar",
+      "bookButton": "WhatsApp orqali band qilish"
+    },
+    "benefits": {
+      "title": "Nega bizni tanlashadi",
+      "drivers": {
+        "title": "Professional haydovchilar",
+        "description": "Yo'llarni mukammal biladigan va yuqori darajadagi xizmat ko'rsatadigan tajribali haydovchilar"
+      },
+      "support": {
+        "title": "24/7 WhatsApp qo'llab-quvvatlash",
+        "description": "Har qanday masalani hal qilish uchun kechayu kunduz qo'llab-quvvatlash"
+      },
+      "price": {
+        "title": "Shaffof narxlar",
+        "description": "Yashirin to'lovlar va qo'shimcha yig'imlarsiz belgilangan narxlar"
+      },
+      "vip": {
+        "title": "VIP avtopark",
+        "description": "Zamonaviy qulay premium klassidagi avtomobillar"
+      }
+    }
+  }
+}
